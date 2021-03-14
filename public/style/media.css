@@ -1,0 +1,169 @@
+@media (min-width: 1200px) {
+    .telefon {
+        font-size: 20px;
+        padding-top: 1%;
+    }
+    header, main{
+        margin-top: 90px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .title{
+        left: 28%;
+        margin-top: 1%;
+    }
+    .telefon {
+        font-size: 18px;
+        padding-top: 1%;
+    }
+    header, main{
+        margin-top: 100px;
+    }
+    .block-text{
+        padding-left: 5%;
+        padding-right: 5%;
+        font-size: 18px;
+    }
+    .responsive {
+        width: 32.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media (max-width: 992px) {
+    .title, .text-about{
+        font-size: 26px;
+    }
+    header, main{
+        margin-top: 91px;
+    }
+    .telefon {
+        font-size: 15px;
+        padding-top: 2%;
+    }
+    .block-text{
+        padding-left: 5%;
+        padding-right: 5%;
+        font-size: 16px;
+    }
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+    /*Reliefs and Murals page*/
+    .rosp, .respons{
+        width: 49%;
+    } 
+    /*Disign project page*/
+    .design{
+        width: 100%;
+    }
+    /*fonts menu*/
+    .nav-link{
+        font-size: 17px;
+    }
+    /* error page*/
+    .error_text, .error_title{
+        font-size: 30px;
+    }
+}
+
+/*Средние девайсы («таблетки», >= 768px)*/ 
+@media (max-width: 768px) {
+    /*home page*/
+    header{
+        margin-top: 70px;
+    }
+    main{
+        margin-top: 0;
+    }
+    .title, .text-about{
+            font-size: 20px;
+            padding-top:15px;
+    }
+    .telefon{
+        font-size: 13px;
+        padding-top: 3%;
+    }
+    .block-text{
+        padding-left: 5%;
+        padding-right: 5%;
+        font-size: 13px;
+    }
+    /*fonts menu */
+    .nav-link{
+        font-size: 15px;
+    }
+    /*Reliefs and Murals page*/
+    .rosp, .respons{
+        width: 49%;
+    }
+    /* error page*/
+    .error_text, .error_title{
+        font-size: 20px;
+    }
+    /*admin*/
+    .block_admin {
+        margin-top: 12%;
+    }
+    .card-title{
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 576px) {
+    header{
+        margin-top: 49px;
+    }
+    .title, .text-about{
+        font-size: 16px;
+        padding-top:5px;
+        left: 12%;
+    }
+    .block-text{
+        padding-left: 5%;
+        padding-right: 5%;
+        font-size: 10px;
+    }
+    .logo{
+        height: 50px;
+    }
+    .telefon {
+        display: none;
+    }
+    .firm>h5>b, .decor>h5>b{
+        font-size: 15px;
+    }
+    /*fonts menu*/
+    .nav-link {
+        font-size: 13px;
+    }
+    /*Reliefs and Murals page*/
+    .responsive, .rosp, .respons {
+        width: 100%;
+    }
+    /*footer*/
+    .footer{
+        text-align: center;
+        font-size: 10px;
+        display: block;
+        padding-bottom: 1%;
+    }
+    .footer p{
+        margin-bottom:0;
+    }
+    .vkontact {
+        width: 5%;
+    }
+    /* error page*/
+    .error_text, .error_title{
+        font-size: 18px;
+    }
+}
+
+
+
+
+
+
