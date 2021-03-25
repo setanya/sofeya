@@ -23,7 +23,7 @@
             <?if(isset($_POST['title']) && (empty($_POST['title']))):?>
                 <p style="color:red;"><? echo 'Заполните название материала';?></p>
             <?endif;?>
-            <label for="exampleFormControlTextarea1">Введите коментарий к материалу </label><br>
+            <label for="exampleFormControlTextarea1">Введите характеристики материала </label><br>
             <textarea name="text" class="form-control" id="exampleFormControlTextarea1" rows="5" ></textarea>
             <?if(isset($_POST['text']) && (empty($_POST['text']))):?>
                 <p style="color:red;"><? echo 'Заполните контент материала';?></p>

@@ -82,8 +82,9 @@ abstract class Model
         }
         $sql = "SELECT * FROM {$this->table} WHERE {$this->pk} = ? LIMIT 1";
         return $this->db->query($sql, [$id]);
-
     }
+
+
     /**
      * @param $CategoryId
      * @return array
@@ -120,6 +121,24 @@ abstract class Model
         $sql = "INSERT INTO {$this->table} SET image = '$img', alt = '$alt', title = '$title', text = '$text'";
 
         return $this->db->exec($sql,[$img, $alt, $title, $text]);
+    }
+    public function getEditPaint($title, $text, $id ){
+        $sql = "UPDATE {$this->table} SET title = ?, text = ?  WHERE `id`= ?";
+
+        return $this->db->exec($sql,[$title, $text, $id]);
+    }
+
+    public function getEditId($title, $preview, $text, $img, $alt, $id)
+    {
+        $sql = "UPDATE {$this->table} SET title =?, preview = ?, text = ?, image = ?, alt= ?, DATA = NOW()  WHERE `id`= ?";
+        return $this->db->exec($sql, [$title, $preview, $text, $img, $alt, $id]);
+    }
+
+    public function getDeleteId($id)
+    {
+        $sql = "DELETE FROM {$this->table} WHERE `id` = ? ";
+
+        return $this->db->exec($sql, [$id]);
     }
 
 }

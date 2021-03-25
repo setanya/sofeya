@@ -23,19 +23,27 @@ spl_autoload_register(function ($class){
     }
 });
 
+
 Router::add(['^news/view/(?P<id>[0-9]+)/?$' =>['controller'=>'News', 'action'=>'view']]);
 
 Router::add(['^news/viewdatail/(?P<id>[0-9]+)/?$' =>['controller'=>'News', 'action'=>'viewdatail']]);
 
-Router::add(['^news/view/(?P<id>[0-9]+)/?$' =>['controller'=>'Portfolio', 'action'=>'textures']]);
+//Router::add(['^news/view/(?P<id>[0-9]+)/?$' =>['controller'=>'Portfolio', 'action'=>'textures']]);
 
 Router::add(['^Texture/one/(?P<id>[0-9]+)/?$' =>['controller'=>'Texture', 'action'=>'one']]);
 Router::add(['^Texture/second/(?P<id>[0-9]+)/?$' =>['controller'=>'Texture', 'action'=>'second']]);
 Router::add(['^Texture/tree/(?P<id>[0-9]+)/?$' =>['controller'=>'Texture', 'action'=>'tree']]);
 Router::add(['^Texture/four/(?P<id>[0-9]+)/?$' =>['controller'=>'Texture', 'action'=>'four']]);
 
+
+Router::add(['^admin/editpaint/(?P<id>[0-9]+)/?$'=>['controller' => 'Editpaint', 'action' => 'index', 'prefix' =>'admin\\']]);
+Router::add(['^admin/editpaint/correct/(?P<id>[0-9]+)/?$'=>['controller' => 'Editpaint', 'action' => 'correct', 'prefix' =>'admin\\']]);
+Router::add(['^admin/edit/(?P<id>[0-9]+)/?$'=>['controller' => 'Edit', 'action' => 'index', 'prefix' =>'admin\\']]);
+Router::add(['^admin/edit/correct/(?P<id>[0-9]+)/?$'=>['controller' => 'Edit', 'action' => 'correct', 'prefix' =>'admin\\']]);
 Router::add(['^admin$'=> ['controller' => 'Main', 'action' => 'index', 'prefix' =>'admin\\']]);
 Router::add(['^admin/(?P<controller>[a-z0-9-]+)/?(?P<action>[a-z0-9-]+)?$'=>['prefix' => 'admin\\']]);
+
+
 
 Router::add(['^$'=>['controller'=>'Main', 'action'=>'index']]);
 Router::add(['^(?P<controller>[a-z0-9-]+)/?(?P<action>[a-z0-9-]+)?$'=>[]]);

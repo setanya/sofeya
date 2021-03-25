@@ -1,6 +1,6 @@
 
 <div class="forms">
-    <form action="" method="POST" enctype="multipart/form-data">
+    <form  method="POST" enctype="multipart/form-data">
         <p><b>Раздел меню " ПОРТФОЛИО "</b></p>
         <?if(isset($_SESSION['end']) && $_SESSION['end'] !=""):?>
             <p style="color: red"><?=$_SESSION['end']?></p>

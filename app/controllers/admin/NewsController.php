@@ -41,4 +41,8 @@ class NewsController extends AppController
         }
     }
 
+    public function editAction(){
+        echo 'yes';
+    }
+
 }

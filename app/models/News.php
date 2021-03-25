@@ -15,7 +15,7 @@ class News extends Model
      * @param $preview/preview text
      * @param $text/continuation of the text
      * @param $img/picture
-     * @param $alt/ brief dascription
+     * @param $alt/ brief description
      * @return array/ add to the database
      */
     public function addNews($title, $preview, $text, $img, $alt){

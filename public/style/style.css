@@ -232,6 +232,9 @@ div.desc {
 .link_admin:hover{
     color: #260210;
 }
+.content{
+    margin: 1%;
+}
 /*admin - form*/
 .forms{
     margin-left: 20%;

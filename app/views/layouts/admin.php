@@ -16,7 +16,7 @@
             </div>
             <div id="block" class="container">
                 <div class="row">
-                    <main class="col-md-9">
+                    <main class="col-md-12">
                         <div class="card card-info block_admin">
                             <div class="card-header">
                                 <h3 class="card-title">Заполнение контентом сайт</h3>
@@ -38,6 +38,30 @@
                                     <li class="nav-item">
                                         <a class="nav-link link_admin" href="/admin/news">Новости</a>
                                     </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="dropdown-toggle nav-link link_admin" href="#" data-toggle="dropdown">Редактирование
+                                        </a>
+                                        <ul class="dropdown-menu">
+                                            <li class="nav-item list-menu">
+                                                <a class="nav-link link_admin" href="#">Портфолио</a>
+                                            </li>
+                                            <li class="nav-item list-menu">
+                                                <a class="nav-link link_admin" href="#">Инструменты</a>
+                                            </li>
+                                            <li class="nav-item list-menu">
+                                                <a class="nav-link link_admin" href="#">Дизайны</a>
+                                            </li>
+                                            <li class="nav-item list-menu">
+                                                <a class="nav-link link_admin" href="/admin/editpaint">Краски, лак</a>
+                                            </li>
+                                            <li class="nav-item list-menu">
+                                                <a class="nav-link link_admin" href="/admin/edit">Новости</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+<!--                                    <li class="nav-item">-->
+<!--                                        <a class="nav-link link_admin" href="/admin/edit">Редактирование</a>-->
+<!--                                    </li>-->
                                     <li class="nav-item">
                                         <a class="nav-link link_admin" href="/">Главная</a>
                                     </li>
