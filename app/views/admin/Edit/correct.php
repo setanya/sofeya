@@ -16,8 +16,9 @@
             <textarea name="textTo" class="form-control" id="exampleFormControlTextarea1" rows="5"><?=$arNews['text'];?></textarea>
         </div><br>
         <div class="form-group">
-            <label for="exampleFormControlFile1">Заменить файл для загрузки</label><br>
-            <input type="file" name="foto" class="form-control-file" id="exampleFormControlFile1" value="<?=$arNews['image'];?>"><br>
+            <label>Загруженное изображение : <?=$arNews['image'];?></label><br>
+            <label for="exampleFormControlFile1">Заменить изображение</label><br>
+            <input type="file" name="foto" class="form-control-file" id="exampleFormControlFile1"> <br>
             <input type="alt" name="alt" class="form-control" placeholder="Описание фото ALT=''" value="<?=$arNews['alt'];?>">
 
         </div><br>

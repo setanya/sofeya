@@ -28,7 +28,7 @@ class ToolsController extends AppController
                 $title = $_POST['title'];
                 $text = $_POST['big_text'];
                 $img = $foto;
-                $add = $tools->getStr($img, $alt, $title, $text);
+                $add = $tools->addStr($img, $alt, $title, $text);
 
                 $_SESSION['end'] = "Инструмент добавлен";
                 header("Location: /admin/tools");

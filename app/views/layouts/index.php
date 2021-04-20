@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="keywords" content="Студия декора Софея,  Дизайн интерьера, Художественные услуги">
-    <meta name="description" content="Студия декора Софея, Художественные услуги и дизайн, Консультация по декору бесплатная, Нанесение декоративных материалов">
+    <meta name="keywords" content="Студия декора Софея,  дизайн интерьера, художественные услуги, декоративная штукатурка">
+    <meta name="description" content="Студия декора Софея, художественные услуги и дизайн, консультация по декору, декоративная штукатурка, нанесение декоративных материалов">
     <link rel="stylesheet" href="/public/fonts/Commissioner-VariableFont_wght.ttf">
     <link rel="stylesheet" href="/public/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="/public/style/style.css">

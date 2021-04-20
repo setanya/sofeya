@@ -26,7 +26,7 @@
             <?endif;?>
         </div><br>
         <div class="form-group">
-            <label for="exampleFormControlSelect1">Категория изображения</label><br>
+            <label for="exampleFormControlSelect1">Выбрать вид фактуры</label><br>
             <select name="categoryImage" class="form-control" id="exampleFormControlSelect1">
                 <option selected ></option>
                 <?foreach ($arDez as $value):?>
@@ -49,7 +49,6 @@
         <br>
         <button type="submit" name="submit" class="btn btn-secondary">Добавить</button>
     </form>
-
 </div>
 
 

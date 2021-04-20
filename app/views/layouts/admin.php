@@ -39,29 +39,25 @@
                                         <a class="nav-link link_admin" href="/admin/news">Новости</a>
                                     </li>
                                     <li class="nav-item dropdown">
-                                        <a class="dropdown-toggle nav-link link_admin" href="#" data-toggle="dropdown">Редактирование
-                                        </a>
+                                        <a class="dropdown-toggle nav-link link_admin" href="#" data-toggle="dropdown">Редактирование</a>
                                         <ul class="dropdown-menu">
                                             <li class="nav-item list-menu">
-                                                <a class="nav-link link_admin" href="#">Портфолио</a>
+                                                <a class="nav-link link_admin" href="/admin/editportfolio" style="font-size: 17px">Портфолио</a>
                                             </li>
                                             <li class="nav-item list-menu">
-                                                <a class="nav-link link_admin" href="#">Инструменты</a>
+                                                <a class="nav-link link_admin" href="/admin/edittools" style="font-size: 17px">Инструменты</a>
                                             </li>
                                             <li class="nav-item list-menu">
-                                                <a class="nav-link link_admin" href="#">Дизайны</a>
+                                                <a class="nav-link link_admin" href="/admin/editdesign" style="font-size: 17px">Дизайны</a>
                                             </li>
                                             <li class="nav-item list-menu">
-                                                <a class="nav-link link_admin" href="/admin/editpaint">Краски, лак</a>
+                                                <a class="nav-link link_admin" href="/admin/editpaint" style="font-size: 17px">Краски, лак</a>
                                             </li>
                                             <li class="nav-item list-menu">
-                                                <a class="nav-link link_admin" href="/admin/edit">Новости</a>
+                                                <a class="nav-link link_admin" href="/admin/edit" style="font-size: 17px">Новости</a>
                                             </li>
                                         </ul>
                                     </li>
-<!--                                    <li class="nav-item">-->
-<!--                                        <a class="nav-link link_admin" href="/admin/edit">Редактирование</a>-->
-<!--                                    </li>-->
                                     <li class="nav-item">
                                         <a class="nav-link link_admin" href="/">Главная</a>
                                     </li>

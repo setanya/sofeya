@@ -36,6 +36,12 @@ Router::add(['^Texture/tree/(?P<id>[0-9]+)/?$' =>['controller'=>'Texture', 'acti
 Router::add(['^Texture/four/(?P<id>[0-9]+)/?$' =>['controller'=>'Texture', 'action'=>'four']]);
 
 
+Router::add(['^admin/editportfolio/(?P<id>[0-9]+)/?$'=>['controller' => 'Editportfolio', 'action' => 'index', 'prefix' =>'admin\\']]);
+Router::add(['^admin/editportfolio/correct/(?P<id>[0-9]+)/?$'=>['controller' => 'Editportfolio', 'action' => 'correct', 'prefix' =>'admin\\']]);
+Router::add(['^admin/edittools/(?P<id>[0-9]+)/?$'=>['controller' => 'Edittools', 'action' => 'index', 'prefix' =>'admin\\']]);
+Router::add(['^admin/edittools/correct/(?P<id>[0-9]+)/?$'=>['controller' => 'Edittools', 'action' => 'correct', 'prefix' =>'admin\\']]);
+Router::add(['^admin/editdesign/(?P<id>[0-9]+)/?$'=>['controller' => 'Editdesign', 'action' => 'index', 'prefix' =>'admin\\']]);
+Router::add(['^admin/editdesign/correct/(?P<id>[0-9]+)/?$'=>['controller' => 'Editdesign', 'action' => 'correct', 'prefix' =>'admin\\']]);
 Router::add(['^admin/editpaint/(?P<id>[0-9]+)/?$'=>['controller' => 'Editpaint', 'action' => 'index', 'prefix' =>'admin\\']]);
 Router::add(['^admin/editpaint/correct/(?P<id>[0-9]+)/?$'=>['controller' => 'Editpaint', 'action' => 'correct', 'prefix' =>'admin\\']]);
 Router::add(['^admin/edit/(?P<id>[0-9]+)/?$'=>['controller' => 'Edit', 'action' => 'index', 'prefix' =>'admin\\']]);

@@ -27,7 +27,7 @@ class PaintController extends AppController
                 $title = $_POST['title'];
                 $text = $_POST['text'];
                 $img = $foto;
-                $addPaint = $paint->getPaint($img, $alt, $title, $text);
+                $addPaint = $paint->addPaint($img, $alt, $title, $text);
 
                 $_SESSION['end'] = "Материал добавлен";
                 header("Location: /admin/paint");

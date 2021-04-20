@@ -17,4 +17,16 @@ class Design extends Model
         return $this->db->exec($sql, [$img, $alt]);
     }
 
+    public function upDesign($img, $alt, $id){
+
+        $sql = "UPDATE {$this->table} SET image = ?, alt = ? WHERE id = ?";
+
+        return $this->db->exec($sql, [$img, $alt, $id]);
+    }
+    public function editDesign($alt, $id){
+
+        $sql = "UPDATE {$this->table} SET alt = ? WHERE id = ?";
+
+        return $this->db->exec($sql, [ $alt, $id]);
+    }
 }

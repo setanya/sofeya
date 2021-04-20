@@ -1,11 +1,12 @@
 <div class="forms">
     <form action="" method="POST" enctype="multipart/form-data">
         <p><h4>Редактирование раздела "Краски,  лаки, грунты"</h4></p>
-<!--        <div class="form-group">-->
-<!--            <label for="exampleFormControlFile1">Редактирование файла для загрузки</label><br>-->
-<!--            <input type="file" name="paint" class="form-control-file" id="exampleFormControlFile1" value="--><?//=$_SERVER['DOCUMENT_ROOT'].'/public/foto/paint/'.$arPaints['image']?><!--"><br>-->
-<!--            <input type="text" name="alt" class="form-control" placeholder="Описание фото ALT='..'" value="--><?//=$arPaints['alt']?><!--">-->
-<!--        </div>-->
+        <div class="form-group">
+            <label><b> Загруженное изображение :</b> <?=$arPaints['image']?></label><br>
+            <b><label for="exampleFormControlFile1">Заменить загруженное изображение</label><br></b>
+            <input type="file" name="paint" class="form-control-file" id="exampleFormControlFile1"> <br>
+            <input type="text" name="alt" class="form-control" placeholder="Описание фото ALT='..'" value="<?=$arPaints['alt']?>">
+        </div>
         <div class="form-group">
              <b><label for="formGroupExampleInput">Изменить название материала</label><br></b>
             <input type="text" name="title" class="form-control" id="formGroupExampleInput" value="<?=$arPaints['title']?>">
