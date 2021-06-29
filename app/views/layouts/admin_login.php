@@ -12,7 +12,7 @@
     </head>
     <body>
         <div id="case" >
-            <div class="logo">
+            <div class="logo" >
                 <p class="title">
                     <?php echo TITLE;?>
                 </p>
@@ -23,7 +23,7 @@
                     <main class="col-md-9">
                         <div class="card card-info block_admin">
                             <div class="card-header">
-                                <h3 class="card-title">Регистрации администратора</h3>
+                                <h3 class="card-title">Вход администратора</h3>
                             </div>
                                 <?=$content;?>
                         </div>

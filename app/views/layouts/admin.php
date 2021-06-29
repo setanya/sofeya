@@ -11,15 +11,15 @@
     </head>
     <body>
         <div id="case" >
-            <div class="logo">
-                <p class="title"><?php echo TITLE;?></p>
+            <div class="logo" style="text-align: center">
+                <p class="title" style="left: 0"><?php echo TITLE;?></p>
             </div>
             <div id="block" class="container">
                 <div class="row">
                     <main class="col-md-12">
                         <div class="card card-info block_admin">
                             <div class="card-header">
-                                <h3 class="card-title">Заполнение контентом сайт</h3>
+                                <h3 class="card-title">Заполнение контентом сайта</h3>
                             </div>
                             <div class="menu_admin">
                                 <ul class="nav">

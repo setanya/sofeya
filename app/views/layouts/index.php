@@ -91,7 +91,7 @@
                         </p>
                     </div>
                     <div col-md-4>
-                        <p>Наш инстограм<br>
+                        <p>Наш инстaграм<br>
                             <a class="insta" href="<?php echo INSTA;?>" target="_blank"><?php echo INSTAGRAM;?></a>
                         </p>
                     </div>

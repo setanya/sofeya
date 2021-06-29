@@ -23,15 +23,13 @@
 .title{
     display: inline-block;
     position: relative;
-    left: 41%;
+    left: 40%;
     font-size: 30px;
     font-weight: bolder;
-}
-.title{
-    text-align: center;
     padding-top: 28px;
     color: #260210;
 }
+
 .telefon{
     float: right;
     padding-right: 5px;
